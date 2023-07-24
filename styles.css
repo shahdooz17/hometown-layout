@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+#HERO
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("images/torshov.jpg");
+
+}
+#hero-header1
+{
+    margin-top: 120px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    background: #1D3557;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 12px;
+}
+#hero-header2
+{
+    border-radius: 10px;
+    background: #457B9D;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 25px;
+}
+#activity-section {
+    background-color: #F1FAEE;
+    padding: 40px 0px;
+}
+
+#activities {
+    display: flex;
+    justify-content: space-around;
+}
+#header3
+{
+
+    color: #1D3557;
+text-align: center;
+font-family: Arial;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 15px;
+}
+
+#activity-header {
+    padding-bottom: 55px;
+}
+
+.activity-image {
+    border-radius: 50%;
+}
+
+.activity {
+    width: 200px;
+}
+
+.activity-h3
+{
+    color: #1D3557;
+text-align: center;
+font-family: Arial;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.activity-p3
+{
+    color: #1D3557;
+text-align: center;
+font-family: Arial;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+img {
+    width: 100px;
+}
+#guide-section {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #A8DADC;
+    box-shadow: 0px 6px 0px 0px #1D3557;
+    border-radius: 10px;
+}
+#guide-section img {
+    width: 45%;
+    margin-right: 10px;
+}
+
+#guide-statement {
+    color: #1D3557;
+text-align: center;
+font-family: Arial;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+}
+.guide-h3
+{
+    color: #1D3557;
+text-align: center;
+font-family: Arial;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.guide-h4
+{
+    color: #1D3557;
+text-align: center;
+font-family: Arial;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.border-blue {
+    border: 1px dotted blue;
+}
